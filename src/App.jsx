@@ -1,15 +1,19 @@
 import { useState } from 'react'
 
-import './App.css'
+
+import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1 className='text-red-500
-     
-     '>hello</h1>
+     <main className='max-w-7xl mx-auto'>
+     <Navbar/>
+     <Hero/>
+
+     </main>
     </>
   )
 }
