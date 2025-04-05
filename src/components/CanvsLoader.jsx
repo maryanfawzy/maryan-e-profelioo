@@ -4,7 +4,7 @@ const CanvsLoader = () => {
   const {progress} = useProgress()
   console.log(progress)
   return (
-   <html
+   <Html
    as='div'
    center 
    style={{
@@ -23,7 +23,7 @@ const CanvsLoader = () => {
     </p>
 
     
-   </html>
+   </Html>
   )
 }
 
