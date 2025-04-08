@@ -10,4 +10,4 @@ const Target = () => {
   )
 }
 
-export default Target
+export default Target ;
