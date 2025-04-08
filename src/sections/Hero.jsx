@@ -70,7 +70,8 @@ scale:{
                 position={[sizes.deskPosition]} 
                 rotation = {[0, -Math.PI, 0]}
                  scale = {sizes.deskScale } />
-                 <group position={sizes.targetPosition}>
+                 <group >
+                    <Target position= {sizes.targetPosition}/>
                     
                  </group>
            

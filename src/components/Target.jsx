@@ -1,12 +1,15 @@
 import { useGLTF } from '@react-three/drei'
-import React from 'react'
+import React, { useRef } from 'react'
+import { Mesh } from 'three'
 
-const Target = () => {
+const Target = (props) => {
+  const targetRef = useRef()
   const {scene} = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',)
   return (
-    <div>
-      
-    </div>
+    <mesh {...props} ref={targetRef}>
+      <primitive object={scene}/>
+
+    </mesh>
   )
 }
 
