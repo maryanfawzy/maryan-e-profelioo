@@ -58,11 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Animation Video app',
+      desc: 'A highly interactive, visually immersive website built with React.js, styled using Tailwind CSS, and animated with GSAP. Users can seamlessly switch between different background videos, enhancing the dynamic visual experience. The site also features integrated background music playback, adding an atmospheric layer to the browsing experience. With smooth transitions, scroll-triggered animations, and a modern aesthetic, the site delivers a creative and responsive user experience across all devices.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built as a unique Software-as-a-Service app with Html, Css, JavaScript, React.js, Tailwind CSS, GSAP',
+      href: 'https://award-gamma.vercel.app/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
