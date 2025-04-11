@@ -10,7 +10,7 @@ import { myProjects } from '../constants';
 import { AmbientLight } from 'three';
 import { Center, OrbitControls } from '@react-three/drei';
 import CanvsLoader from '../components/CanvsLoader.jsx';
-import DemoComputer from '../components/DemoComputer.JSX';
+import DemoComputer from '../components/DemoComputer.jsx';
 
 
 const projectCount = myProjects.length;
