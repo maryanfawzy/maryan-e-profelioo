@@ -76,7 +76,7 @@ const Hero = () => {
 
     const controls = useControls('HackerRoom', {
         positionX: { value: 1, min: -10, max: 10 },
-        positionY: { value: -2.9, min: -10, max: 20 },
+        positionY: { value: -4, min: -10, max: 20 },
         positionZ: { value: 1, min: -10, max: 10 },
       
         rotationX: { value: 0.1, min: -Math.PI, max: Math.PI },
